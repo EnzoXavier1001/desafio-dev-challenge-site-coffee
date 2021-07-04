@@ -92,5 +92,13 @@ li a {
     background-color: #FCA60F;
     border-radius: 5px;
     color: #FFF;
-    margin-bottom: 32px;
+}
+
+.social__media {
+    margin-top: 32px;
+    display: flex;
+}
+
+.social__media li {
+    margin-right: 15px;
 }
