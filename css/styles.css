@@ -19,7 +19,7 @@ body {
     font-size: 1.6rem;
 }
 
-ul {
+li {
     list-style: none;
 }
 
@@ -41,7 +41,7 @@ header ul li {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    max-width: 1200px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
@@ -72,3 +72,25 @@ li a {
     vertical-align: center;
 }
 
+.coffee {
+    margin-top: 100px;
+}
+
+.box__coffee {
+    max-width: 530px;
+}
+
+.box__coffee h1 {
+    font-size: 3.6rem;
+    color: var(--color-black);
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: #FCA60F;
+    border-radius: 5px;
+    color: #FFF;
+    margin-bottom: 32px;
+}
