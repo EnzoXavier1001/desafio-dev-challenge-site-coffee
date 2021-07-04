@@ -1,0 +1,74 @@
+:root {
+    --color-black: #242424;
+    --color-yellow: #FCA60F;
+    --color-brown: #C95E20;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #FFF;
+    box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+}
+
+header ul li {
+    padding: 2.4rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container img {
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+li a {
+    color: var(--color-black);
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.main__title::before {
+    content: '';
+    background: url('../assets/logo.svg');
+    width: 50px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 14px;
+    vertical-align: center;
+}
+
